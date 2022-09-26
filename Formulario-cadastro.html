@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="html,tecnologia" initial-scale="1.0">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" type="text/css" href="Formulario-cadastro.css">
+
+
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo"> complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="box">
+            <div class="campo">
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+
+            <div class="campo">
+                <label> Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+        </fieldset>
+            
+        <fieldset class="grupo">
+            <div class="radio-cont">
+                <label>
+                    <input type="radio" name="radio" checked />
+                    <span class="check"></span>
+                    <span>HTML</span>
+                </label>
+                <label>
+                    <input type="radio" name="radio" />
+                    <span class="check"></span>
+                    <span>CSS</span>
+                </label>
+                <label>
+                    <input type="radio" name="radio" />
+                    <span class="check"></span>
+                    <span>JavaScript</span>
+                </label>
+            </div>
+            </div>
+
+            <div class="campo">
+                <legend id="legend">Nível</legend>
+                <select id="nivel">
+                    <option selected disabled value="Selecione" ></option>
+                    <option>Básico</option>
+                    <option>Intermediário</option>
+                    <option>Avançado</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <button type="submit" class="botao">Concluído</button>
+    </form>
+        
+    </body>
